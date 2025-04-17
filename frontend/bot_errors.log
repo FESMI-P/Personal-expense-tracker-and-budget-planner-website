@@ -1,0 +1,211 @@
+[23-Mar-2025 09:46:45 Europe/Berlin] Bot token validated successfully
+[23-Mar-2025 09:46:50 Europe/Berlin] Telegram API Response Info: Array
+(
+    [url] => https://api.telegram.org/bot7327040764:AAFpWWYBk-L0M5t6x94A5i-S7c71eyPZnQs/getUpdates
+    [content_type] => application/json
+    [http_code] => 409
+    [header_size] => 315
+    [request_size] => 227
+    [filetime] => -1
+    [ssl_verify_result] => 20
+    [redirect_count] => 0
+    [total_time] => 4.629334
+    [namelookup_time] => 0.00135
+    [connect_time] => 0.167676
+    [pretransfer_time] => 0.355828
+    [size_upload] => 258
+    [size_download] => 143
+    [speed_download] => 30
+    [speed_upload] => 55
+    [download_content_length] => 143
+    [upload_content_length] => 258
+    [starttransfer_time] => 4.629315
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 149.154.167.220
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.1.7
+    [local_port] => 51112
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 355623
+    [connect_time_us] => 167676
+    [namelookup_time_us] => 1350
+    [pretransfer_time_us] => 355828
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 4629315
+    [total_time_us] => 4629334
+    [effective_method] => POST
+)
+
+[23-Mar-2025 09:46:50 Europe/Berlin] Telegram API Raw Response: {"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}
+[23-Mar-2025 09:46:50 Europe/Berlin] API returned error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[23-Mar-2025 09:48:14 Europe/Berlin] Bot token validated successfully
+[23-Mar-2025 09:48:26 Europe/Berlin] Telegram API Response Info: Array
+(
+    [url] => https://api.telegram.org/bot7327040764:AAFpWWYBk-L0M5t6x94A5i-S7c71eyPZnQs/getUpdates
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 365
+    [request_size] => 221
+    [filetime] => -1
+    [ssl_verify_result] => 20
+    [redirect_count] => 0
+    [total_time] => 11.515427
+    [namelookup_time] => 0.001456
+    [connect_time] => 0.231791
+    [pretransfer_time] => 0.446493
+    [size_upload] => 55
+    [size_download] => 299
+    [speed_download] => 25
+    [speed_upload] => 4
+    [download_content_length] => 299
+    [upload_content_length] => 55
+    [starttransfer_time] => 11.515411
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 149.154.167.220
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.1.7
+    [local_port] => 51316
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 446402
+    [connect_time_us] => 231791
+    [namelookup_time_us] => 1456
+    [pretransfer_time_us] => 446493
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 11515411
+    [total_time_us] => 11515427
+    [effective_method] => POST
+)
+
+[23-Mar-2025 09:48:26 Europe/Berlin] Telegram API Raw Response: {"ok":true,"result":[{"update_id":944524423,
+"message":{"message_id":36,"from":{"id":1492124926,"is_bot":false,"first_name":"Fesmi","last_name":"P","language_code":"en"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742719795,"text":"Spent 500 for lunch"}}]}
+[23-Mar-2025 09:48:26 Europe/Berlin] Error ensuring user registration: Cannot add or update a child row: a foreign key constraint fails (`expense_tracker1`.`telegram_users`, CONSTRAINT `telegram_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[23-Mar-2025 09:51:02 Europe/Berlin] Bot token validated successfully
+[23-Mar-2025 09:51:47 Europe/Berlin] Bot token validated successfully
+[23-Mar-2025 09:52:55 Europe/Berlin] Bot token validated successfully
+[23-Mar-2025 09:52:56 Europe/Berlin] Telegram API Response Info: Array
+(
+    [url] => https://api.telegram.org/bot7327040764:AAFpWWYBk-L0M5t6x94A5i-S7c71eyPZnQs/getUpdates
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 365
+    [request_size] => 221
+    [filetime] => -1
+    [ssl_verify_result] => 20
+    [redirect_count] => 0
+    [total_time] => 0.533711
+    [namelookup_time] => 0.001964
+    [connect_time] => 0.173745
+    [pretransfer_time] => 0.357283
+    [size_upload] => 55
+    [size_download] => 898
+    [speed_download] => 1682
+    [speed_upload] => 103
+    [download_content_length] => 898
+    [upload_content_length] => 55
+    [starttransfer_time] => 0.533694
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 149.154.167.220
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.1.7
+    [local_port] => 51563
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 357172
+    [connect_time_us] => 173745
+    [namelookup_time_us] => 1964
+    [pretransfer_time_us] => 357283
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 533694
+    [total_time_us] => 533711
+    [effective_method] => POST
+)
+
+[23-Mar-2025 09:52:56 Europe/Berlin] Telegram API Raw Response: {"ok":true,"result":[{"update_id":944524423,
+"message":{"message_id":36,"from":{"id":1492124926,"is_bot":false,"first_name":"Fesmi","last_name":"P","language_code":"en"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742719795,"text":"Spent 500 for lunch"}},{"update_id":944524424,
+"message":{"message_id":38,"from":{"id":1492124926,"is_bot":false,"first_name":"Fesmi","last_name":"P","language_code":"en"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742719845,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}},{"update_id":944524425,
+"message":{"message_id":39,"from":{"id":1492124926,"is_bot":false,"first_name":"Fesmi","last_name":"P","language_code":"en"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742719857,"text":"Spent 500 for lunch"}}]}
+[23-Mar-2025 09:52:56 Europe/Berlin] Error in ensureUserRegistered: Cannot add or update a child row: a foreign key constraint fails (`expense_tracker1`.`telegram_users`, CONSTRAINT `telegram_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[23-Mar-2025 09:52:56 Europe/Berlin] Debug info - chat_id: 1492124926, username: null
+[23-Mar-2025 09:52:56 Europe/Berlin] Telegram sendMessage response: {"ok":true,"result":{"message_id":40,"from":{"id":7327040764,"is_bot":true,"first_name":"project_bot","username":"Fesmibot"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742720065,"text":"\u274c Failed to register user. Please try again later."}}
+[23-Mar-2025 09:52:56 Europe/Berlin] Error in ensureUserRegistered: Cannot add or update a child row: a foreign key constraint fails (`expense_tracker1`.`telegram_users`, CONSTRAINT `telegram_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[23-Mar-2025 09:52:56 Europe/Berlin] Debug info - chat_id: 1492124926, username: null
+[23-Mar-2025 09:52:57 Europe/Berlin] Telegram sendMessage response: {"ok":true,"result":{"message_id":41,"from":{"id":7327040764,"is_bot":true,"first_name":"project_bot","username":"Fesmibot"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742720066,"text":"\u274c Failed to register user. Please try again later."}}
+[23-Mar-2025 09:52:57 Europe/Berlin] Error in ensureUserRegistered: Cannot add or update a child row: a foreign key constraint fails (`expense_tracker1`.`telegram_users`, CONSTRAINT `telegram_users_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[23-Mar-2025 09:52:57 Europe/Berlin] Debug info - chat_id: 1492124926, username: null
+[23-Mar-2025 09:52:58 Europe/Berlin] Telegram sendMessage response: {"ok":true,"result":{"message_id":42,"from":{"id":7327040764,"is_bot":true,"first_name":"project_bot","username":"Fesmibot"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742720067,"text":"\u274c Failed to register user. Please try again later."}}
+[23-Mar-2025 09:54:43 Europe/Berlin] Bot token validated successfully
+[23-Mar-2025 09:55:57 Europe/Berlin] Bot token validated successfully
+[23-Mar-2025 09:55:58 Europe/Berlin] Telegram API Response Info: Array
+(
+    [url] => https://api.telegram.org/bot7327040764:AAFpWWYBk-L0M5t6x94A5i-S7c71eyPZnQs/getUpdates
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 365
+    [request_size] => 221
+    [filetime] => -1
+    [ssl_verify_result] => 20
+    [redirect_count] => 0
+    [total_time] => 0.585551
+    [namelookup_time] => 0.001663
+    [connect_time] => 0.188211
+    [pretransfer_time] => 0.390426
+    [size_upload] => 55
+    [size_download] => 344
+    [speed_download] => 587
+    [speed_upload] => 93
+    [download_content_length] => 344
+    [upload_content_length] => 55
+    [starttransfer_time] => 0.585517
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 149.154.167.220
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.1.7
+    [local_port] => 51705
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 390301
+    [connect_time_us] => 188211
+    [namelookup_time_us] => 1663
+    [pretransfer_time_us] => 390426
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 585517
+    [total_time_us] => 585551
+    [effective_method] => POST
+)
+
+[23-Mar-2025 09:55:58 Europe/Berlin] Telegram API Raw Response: {"ok":true,"result":[{"update_id":944524426,
+"message":{"message_id":43,"from":{"id":1492124926,"is_bot":false,"first_name":"Fesmi","last_name":"P","language_code":"en"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742720085,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}
+[23-Mar-2025 09:55:58 Europe/Berlin] Found existing user with ID: 1 for chat_id: 1492124926
+[23-Mar-2025 09:55:59 Europe/Berlin] Telegram sendMessage response: {"ok":true,"result":{"message_id":44,"from":{"id":7327040764,"is_bot":true,"first_name":"project_bot","username":"Fesmibot"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742720248,"text":"\ud83d\udc4b Welcome to your Personal Expense Tracker Bot!\n\nI'm here to help you track your expenses. Here's what you can do:\n\n1\ufe0f\u20e3 Add expenses in these formats:\n\u2022 Simple: Spent 500 for lunch\n\u2022 Detailed: Spent 1000 for shopping at mall\n\n2\ufe0f\u20e3 Use these commands:\n/help - Show this help message\n/expenses - View recent expenses\n\nI'll automatically detect the category based on your description!","entities":[{"offset":251,"length":5,"type":"bot_command"},{"offset":282,"length":9,"type":"bot_command"}]}}
+[23-Mar-2025 10:00:32 Europe/Berlin] Bot token validated successfully
+[23-Mar-2025 10:00:33 Europe/Berlin] Telegram sendMessage response: {"ok":true,"result":{"message_id":46,"from":{"id":7327040764,"is_bot":true,"first_name":"project_bot","username":"Fesmibot"},"chat":{"id":1492124926,"first_name":"Fesmi","last_name":"P","type":"private"},"date":1742720522,"text":"\u2705 Expense saved successfully!\n\n\ud83d\udcb0 Amount: \u20b9500.00\n\ud83d\udcdd Description: lunch\n\ud83c\udff7\ufe0f Category: Food\n\ud83d\udcc5 Date: 2025-03-23\n\nUse /expenses to view all recent expenses!","entities":[{"offset":116,"length":9,"type":"bot_command"}]}}
